@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦁Likelion Guestbook🦁</title>
+    <link rel="stylesheet" type="modules" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>🦁Likelion Guestbook🦁</h1>
+        <form id="guestbook-form">
+            <input type="text" id="writer" placeholder="누구십니까?" required>
+            <input type="text" id="title" placeholder="제목" required>
+            <textarea id="content" placeholder="무슨 말을 하고 싶으십니까?" required></textarea>
+            <input type="password" id="password" placeholder="비밀번호" required>
+            <button type="submit">완료</button>
+        </form>
+        <div id="guestbook-entries"></div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
